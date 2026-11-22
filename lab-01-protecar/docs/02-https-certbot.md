@@ -2,6 +2,8 @@
 
 [← Voltar ao ProteCar](../README.md)
 
+**Situação atual:** laboratório de estudos encerrado; a página pública não está mais online. Os comandos abaixo são documentação histórica e não foram executados nesta atualização.
+
 ## Escopo do guia original
 
 O guia do laboratório descreve a evolução de HTTP para HTTPS com **Nginx**, **Certbot** e **Let's Encrypt** no FQDN `protecar-fernando.brazilsouth.cloudapp.azure.com`.
