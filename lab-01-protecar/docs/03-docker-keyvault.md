@@ -2,6 +2,8 @@
 
 [← Voltar ao ProteCar](../README.md)
 
+**Situação atual:** a página ProteCar não está mais online porque o ambiente foi usado para estudos. Os exemplos abaixo documentam a arquitetura proposta/registrada no guia, sem alegar implantação ativa.
+
 ## Escopo do guia complementar
 
 O guia descreve a extensão do site ProteCar para servir imagens por um **container Docker com Nginx Alpine** e armazenar material sensível em **Azure Key Vault**, utilizando **Azure RBAC**.
