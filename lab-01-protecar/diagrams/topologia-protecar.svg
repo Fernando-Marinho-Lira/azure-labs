@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="830" viewBox="0 0 1420 830">
+<title>ProteCar — arquitetura lógica documentada no Azure</title>
+<desc>Fluxo lógico de navegador e DNS Azure até NSG, VM Ubuntu e Nginx; extensões descritas nos guias com HTTPS, container Docker e Azure Key Vault, sem afirmar validação atual.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071A30"/><stop offset="1" stop-color="#113D69"/></linearGradient><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8 Z" fill="#60D4FF"/></marker></defs>
+<rect width="1420" height="830" rx="22" fill="url(#bg)"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="70" y="66" font-size="39" font-weight="bold" fill="#FFFFFF">LAB 01 | PROTECAR</text>
+<text x="70" y="108" font-size="24" fill="#8AE2FF">Azure IaaS · Ubuntu · Nginx · Redes · HTTPS · Docker · Key Vault</text>
+<text x="70" y="141" font-size="18" fill="#D4E6F4">Topologia lógica documentada · etapas complementares indicadas com borda tracejada</text>
+<rect x="475" y="176" width="470" height="90" rx="18" fill="#173D60" stroke="#6FCEF0" stroke-width="3"/>
+<text x="710" y="213" font-size="26" font-weight="bold" text-anchor="middle" fill="white">🌐 Navegador / Internet</text>
+<text x="710" y="241" font-size="18" text-anchor="middle" fill="#D3E7F5">FQDN: protecar-fernando.brazilsouth.cloudapp.azure.com</text>
+<path d="M710 267 V307" stroke="#60D4FF" stroke-width="4" marker-end="url(#arr)"/>
+<rect x="450" y="318" width="520" height="88" rx="18" fill="#143958" stroke="#6FCEF0" stroke-width="3"/>
+<text x="710" y="352" font-size="25" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Microsoft Azure · IP público + NSG</text>
+<text x="710" y="383" font-size="18" fill="#CBE9FC" text-anchor="middle">VNET-PROTECAR: 10.10.0.0/16 · SUBNET-WEB: 10.10.1.0/24</text>
+<path d="M710 408 V447" stroke="#60D4FF" stroke-width="4" marker-end="url(#arr)"/>
+<rect x="390" y="459" width="640" height="135" rx="22" fill="#214E6D" stroke="#6FCEF0" stroke-width="3"/>
+<text x="710" y="495" font-size="27" font-weight="bold" text-anchor="middle" fill="white">VM-PROTECAR · Ubuntu Server</text>
+<text x="710" y="530" font-size="23" font-weight="bold" text-anchor="middle" fill="#F4FAFF">Nginx · Site HTML/CSS</text>
+<text x="710" y="564" font-size="18" text-anchor="middle" fill="#CDE6F3">/var/www/html/index.html</text>
+<path d="M550 594 V644 H420 V671" stroke="#60D4FF" stroke-width="3" stroke-dasharray="9 7" fill="none" marker-end="url(#arr)"/>
+<path d="M870 594 V644 H1000 V671" stroke="#60D4FF" stroke-width="3" stroke-dasharray="9 7" fill="none" marker-end="url(#arr)"/>
+<rect x="75" y="681" width="580" height="87" rx="17" fill="#143958" stroke="#8AD9FA" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="365" y="714" font-size="23" font-weight="bold" text-anchor="middle" fill="white">HTTPS · Certbot / Let's Encrypt</text>
+<text x="365" y="747" font-size="18" text-anchor="middle" fill="#CCE8F8">Configuração de TLS documentada em guia</text>
+<rect x="765" y="681" width="580" height="87" rx="17" fill="#143958" stroke="#8AD9FA" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="1055" y="714" font-size="22" font-weight="bold" text-anchor="middle" fill="white">Docker · Nginx Alpine · Imagens</text>
+<text x="1055" y="747" font-size="17" text-anchor="middle" fill="#CCE8F8">127.0.0.1:8090 · reverse proxy /images/</text>
+<rect x="1020" y="180" width="340" height="106" rx="17" fill="#102F4B" stroke="#8AD9FA" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="1190" y="216" font-size="23" text-anchor="middle" font-weight="bold" fill="#FFFFFF">Azure Key Vault + RBAC</text>
+<text x="1190" y="251" font-size="18" text-anchor="middle" fill="#D3EAF6">Etapa documentada em guia</text>
+<text x="70" y="806" font-size="17" fill="#B4CDDF">Linhas tracejadas = extensões documentadas; não significam execução ou validação recente.</text>
+<text x="1350" y="806" text-anchor="end" font-size="17" fill="#B4CDDF">Fernando Marinho Lira</text>
+</g></svg>
