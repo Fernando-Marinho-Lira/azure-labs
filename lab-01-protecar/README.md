@@ -31,9 +31,9 @@ Os documentos complementares abrangem a configuração de **HTTPS com Certbot/Le
 
 ## 2. 🗺️ Topologia lógica do ProteCar
 
-![Topologia lógica da infraestrutura Azure ProteCar](./diagrams/topologia-protecar.svg)
+![Topologia ilustrada do Laboratório 01 ProteCar com Azure, Ubuntu Server, Nginx, Docker, HTTPS e Key Vault](./diagrams/pro.png)
 
-[🔍 Abrir diagrama completo](./diagrams/topologia-protecar.svg)
+[🔍 Abrir imagem completa](./diagrams/pro.png) · [Consultar diagrama vetorial anterior](./diagrams/topologia-protecar.svg)
 
 **Fluxo de referência:** Navegador → FQDN configurado no IP público do Azure → NSG → interface de rede (NIC) da VM Ubuntu → Nginx principal → site estático. No guia de extensão, o Nginx faz reverse proxy de `/images/` para o container local `protecar-images` na porta `127.0.0.1:8090`.
 
