@@ -12,11 +12,15 @@ Este repositório reúne **laboratórios práticos de infraestrutura no Microsof
 
 As páginas distinguem **experiências relatadas nos documentos**, **procedimentos descritos em guias** e **evidências anexadas**. Nenhuma saída de teste, disponibilidade atual ou implantação em produção é presumida apenas porque há um comando no material.
 
+## 🗓️ Situação dos ambientes
+
+**ProteCar — laboratório de estudos encerrado:** a página que esteve publicada no Microsoft Azure **não está mais online**, pois o ambiente foi utilizado para aprendizagem e demonstração prática. O projeto permanece disponível como documentação técnica histórica no GitHub; não há demonstração web ativa.
+
 ## 📂 Índice de laboratórios
 
 | Laboratório | Tecnologias e escopo | Documentação |
 |---|---|---|
-| **01 — ProteCar: aplicação web em VM Linux** | Azure IaaS, Ubuntu Server, Nginx, VNet, NSG, DNS público; extensões documentadas de HTTPS, Docker e Key Vault | [Abrir Laboratório 01](./lab-01-protecar/README.md) |
+| **01 — ProteCar: aplicação web em VM Linux (ambiente offline)** | Azure IaaS, Ubuntu Server, Nginx, VNet, NSG, DNS público; extensões documentadas de HTTPS, Docker e Key Vault | [Abrir Laboratório 01](./lab-01-protecar/README.md) |
 
 **Catálogo atual:** 1 laboratório documentado. Novos projetos serão adicionados somente quando houver material técnico correspondente.
 
