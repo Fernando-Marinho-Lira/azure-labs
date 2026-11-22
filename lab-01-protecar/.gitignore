@@ -1,0 +1,21 @@
+# Segredos e chaves privadas
+*.pem
+*.key
+*.pfx
+*.p12
+.env
+.env.*
+!.env.example
+secrets.*
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+*.tfvars
+
+# Artefatos locais
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.vscode/
+.idea/
