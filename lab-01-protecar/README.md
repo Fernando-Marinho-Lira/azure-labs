@@ -4,7 +4,10 @@
 
 [![Azure](https://img.shields.io/badge/Microsoft_Azure-IaaS-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
 ![Projeto](https://img.shields.io/badge/Projeto-ProteCar-0A66C2?style=flat-square)
-![Documentação](https://img.shields.io/badge/Status-Documenta%C3%A7%C3%A3o%20organizada%20%7C%20evid%C3%AAncias%20pendentes-orange?style=flat-square)
+![Ambiente](https://img.shields.io/badge/Ambiente-Off--line%20%7C%20Laborat%C3%B3rio%20de%20estudos-6B7280?style=flat-square)
+![Documentação](https://img.shields.io/badge/Documenta%C3%A7%C3%A3o-Preservada-blue?style=flat-square)
+
+> **🗓️ Situação do projeto:** o ProteCar foi desenvolvido como **laboratório de estudos em Microsoft Azure**. A página web esteve publicada durante o aprendizado, mas **não está mais online** porque o ambiente de laboratório foi encerrado. O projeto é apresentado aqui como **registro histórico de aprendizagem**, não como serviço em produção ou demonstração ativa. Não é necessário manter recursos Azure em execução para consultar esta documentação.
 
 > **Escopo e transparência.** Esta documentação foi preparada a partir de três materiais técnicos anteriores do projeto. O portfólio base descreve uma página HTML/CSS publicada em uma VM Ubuntu com Nginx e DNS do Azure. Os guias complementares registram procedimentos de HTTPS/Certbot e Key Vault/Docker. **Checklists, exemplos de comandos e resultados esperados não são tratados como prova de execução atual.** Não há validação de disponibilidade do site ou de recursos Azure nesta publicação.
 
@@ -22,7 +25,7 @@
 
 ## 1. 🎯 Objetivo e contexto
 
-O **ProteCar** é um laboratório prático de publicação de uma **página web estática** em infraestrutura **IaaS (Infrastructure as a Service)** no Microsoft Azure. O ambiente base utiliza **Ubuntu Server**, **Nginx**, **IP público**, **Network Security Group (NSG)** e um **FQDN do domínio `cloudapp.azure.com`**. O material original descreve a publicação do site e a possibilidade de acesso pela Internet. 
+O **ProteCar** é um laboratório prático de publicação de uma **página web estática** em infraestrutura **IaaS (Infrastructure as a Service)** no Microsoft Azure. O ambiente base utiliza **Ubuntu Server**, **Nginx**, **IP público**, **Network Security Group (NSG)** e um **FQDN do domínio `cloudapp.azure.com`**. O material original descreve a publicação histórica do site e seu acesso pela Internet durante o período de estudos. **Atualmente, a página está offline.** 
 
 Os documentos complementares abrangem a configuração de **HTTPS com Certbot/Let's Encrypt**, o uso de **Docker + Nginx Alpine para servir imagens** e um fluxo de proteção de material sensível com **Azure Key Vault e RBAC**. A distinção entre **procedimento documentado** e **evidência anexada** está indicada nas seções seguintes.
 
@@ -51,7 +54,7 @@ Os documentos complementares abrangem a configuração de **HTTPS com Certbot/Le
 | Docker (guia complementar) | `protecar-images`, `nginx:alpine`, `127.0.0.1:8090` | Entrega local de imagens |
 | Key Vault (guia complementar) | Nome do cofre não confirmado | Armazenamento protegido de segredo/chave, conforme guia |
 
-**Nota:** Não publicamos IP público numérico, credenciais, chave SSH, segredos, certificado privado nem inventamos nome de Key Vault. O FQDN é o identificador já presente na documentação original e **não indica que a URL esteja ativa hoje**.
+**Nota:** o FQDN abaixo é **histórico e não está ativo como página do projeto**. Não publicamos IP público numérico, credenciais, chave SSH, segredos, certificado privado nem inventamos nome de Key Vault. O FQDN é o identificador preservado da documentação original, **não um link para demonstração online**.
 
 ## 4. ⚙️ Etapas e documentos técnicos
 
@@ -112,7 +115,7 @@ azure-labs/
 3. Revisar a exposição de **SSH TCP 22** e limitar origens administrativas quando apropriado.
 4. Não publicar `.pem`, `.key`, chaves privadas de certificados, valores de segredos, senhas ou dados de clientes.
 5. Registrar configurações **revisadas e anonimizadas** do Nginx, Docker e RBAC antes de apresentá-las como evidência de implantação.
-6. Verificar situação atual dos recursos Azure e do FQDN sem presumir que ainda estejam ativos; qualquer novo teste deve ser datado.
+6. **Ambiente encerrado para estudos:** não é necessário religar a VM ou restabelecer o site. Caso o laboratório seja recriado futuramente, documentar o novo ambiente e datar os novos testes.
 
 ## 9. 👤 Autor e referências
 
