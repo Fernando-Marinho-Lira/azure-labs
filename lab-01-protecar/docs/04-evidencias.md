@@ -4,6 +4,8 @@
 
 ## Estado atual
 
+**Ambiente de estudos encerrado:** a página ProteCar publicada anteriormente no Azure não está mais online. Não se exige recriar o serviço para manter este portfólio; evidências históricas podem ser adicionadas apenas se estiverem disponíveis e sem dados sensíveis.
+
 Os materiais de origem são um portfólio técnico e guias de laboratório. Eles descrevem arquitetura, comandos, problemas e resultados esperados. **Esta publicação não possui capturas de tela originais, saídas datadas e verificações independentes para todas as etapas.**
 
 | Área | O que está documentado | Evidência a anexar |
