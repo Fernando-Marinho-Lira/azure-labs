@@ -20,7 +20,7 @@
 5. [Competências abordadas](#5--competências-abordadas)
 6. [Matriz de evidências](#6--matriz-de-evidências)
 7. [Organização dos arquivos](#7--organização-dos-arquivos)
-8. [Pendências e boas práticas](#8--pendências-e-boas-práticas)
+8. [Boas práticas e melhorias futuras](#8--boas-práticas-e-melhorias-futuras)
 9. [Autor e referências](#9--autor-e-referências)
 
 ## 1. 🎯 Objetivo e contexto
@@ -108,14 +108,16 @@ azure-labs/
         └── README.md
 ```
 
-## 8. 🔐 Pendências e boas práticas
+## 8. 🔐 Boas práticas e melhorias futuras
 
-1. Revisar e anexar **capturas reais**, comandos executados e respectivas saídas, com data e informações sensíveis ocultas.
-2. Recuperar o **HTML/CSS original** do ProteCar antes de publicar arquivos web; nenhum código de aplicação foi inventado.
-3. Revisar a exposição de **SSH TCP 22** e limitar origens administrativas quando apropriado.
-4. Não publicar `.pem`, `.key`, chaves privadas de certificados, valores de segredos, senhas ou dados de clientes.
-5. Registrar configurações **revisadas e anonimizadas** do Nginx, Docker e RBAC antes de apresentá-las como evidência de implantação.
-6. **Ambiente encerrado para estudos:** não é necessário religar a VM ou restabelecer o site. Caso o laboratório seja recriado futuramente, documentar o novo ambiente e datar os novos testes.
+O **ProteCar foi um laboratório de estudos concluído e documentado**. A aplicação esteve publicada no Microsoft Azure durante o aprendizado, mas o ambiente foi encerrado e **não precisa permanecer online** para integrar este portfólio. Os itens abaixo são sugestões de aprimoramento documental e de segurança, **não pendências obrigatórias para considerar o laboratório válido**.
+
+1. **Preservar evidências históricas, caso disponíveis:** acrescentar capturas reais do Azure, comandos executados e respectivas saídas, sempre ocultando informações sensíveis.
+2. **Recuperar o HTML/CSS original, se disponível:** anexar uma cópia revisada da aplicação para demonstrar sua estrutura sem reconstruir ou inventar arquivos.
+3. **Registrar aprendizados de segurança:** explicar como funcionavam as regras de NSG, o acesso SSH TCP 22 e possíveis restrições de origem, sem pressupor que o ambiente esteja ativo.
+4. **Manter informações confidenciais protegidas:** nunca publicar arquivos `.pem`, `.key`, chaves privadas, segredos, senhas ou dados de terceiros.
+5. **Documentar configurações históricas, se recuperadas:** apresentar exemplos revisados e anonimizados do Nginx, Docker e RBAC, distinguindo configurações reais de trechos explicativos dos guias.
+6. **Recriação opcional:** somente se o laboratório voltar a ser executado futuramente, registrar o novo ambiente e datar os testes realizados. **Não é necessário religar a VM nem restaurar a página para concluir este portfólio.**
 
 ## 9. 👤 Autor e referências
 
