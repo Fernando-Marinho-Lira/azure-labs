@@ -4,7 +4,7 @@
 
 ## Cenário documentado
 
-O portfólio original descreve a publicação de uma página HTML/CSS em **VM Ubuntu Server** no Microsoft Azure, disponibilizada via **Nginx** e um FQDN associado ao IP público. Trata-se de um laboratório de **IaaS**.
+O portfólio original descreve a publicação de uma página HTML/CSS em **VM Ubuntu Server** no Microsoft Azure, disponibilizada via **Nginx** e um FQDN associado ao IP público. Trata-se de um laboratório de **IaaS**. **A publicação é histórica: o ambiente de estudos foi encerrado e a página não está mais online.**
 
 | Recurso | Identificação documentada | Finalidade |
 |---|---|---|
@@ -35,4 +35,4 @@ Navegador → FQDN no IP público Azure → NSG → NIC/VNet → Ubuntu Server �
 
 ## Evidências pendentes
 
-Captura de inventário Azure, configuração Nginx anonimizada, captura real da página e resposta HTTP registrada. Não confundir a descrição histórica de publicação com disponibilidade atual da URL.
+Captura de inventário Azure, configuração Nginx anonimizada, captura real da página e resposta HTTP registrada. A página encontra-se offline por se tratar de um ambiente de estudos; a documentação é mantida como registro histórico.
