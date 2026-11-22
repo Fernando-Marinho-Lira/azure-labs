@@ -87,20 +87,22 @@ Os documentos complementares abrangem a configuração de **HTTPS com Certbot/Le
 ## 7. 📂 Organização dos arquivos
 
 ```text
-azure-protecar-infrastructure-lab/
-├── README.md
-├── .gitignore
-├── diagrams/
-│   └── topologia-protecar.svg
-├── docs/
-│   ├── 01-azure-iaas-nginx.md
-│   ├── 02-https-certbot.md
-│   ├── 03-docker-keyvault.md
-│   └── 04-evidencias.md
-├── evidencias/
-│   └── README.md
-└── configuracoes/
-    └── README.md
+azure-labs/
+├── README.md                       # índice de laboratórios
+└── lab-01-protecar/
+    ├── README.md
+    ├── .gitignore
+    ├── diagrams/
+    │   └── topologia-protecar.svg
+    ├── docs/
+    │   ├── 01-azure-iaas-nginx.md
+    │   ├── 02-https-certbot.md
+    │   ├── 03-docker-keyvault.md
+    │   └── 04-evidencias.md
+    ├── evidencias/
+    │   └── README.md
+    └── configuracoes/
+        └── README.md
 ```
 
 ## 8. 🔐 Pendências e boas práticas
